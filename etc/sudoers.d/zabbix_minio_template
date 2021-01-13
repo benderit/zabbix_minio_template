@@ -1,0 +1,3 @@
+Cmnd_Alias MINIOCLIENT = /usr/bin/mc
+zabbix ALL= (ALL) NOPASSWD: MINIOCLIENT
+Defaults!MINIOCLIENT !logfile, !syslog, !pam_session
