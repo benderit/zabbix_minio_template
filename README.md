@@ -6,7 +6,6 @@
 
 1. Для работы нужно выполнить на хосте ряд действий:
 
-sudo cp zabbix_minio_template /etc/sudoers.d/zabbix_minio_template
 sudo cp minio.conf /etc/zabbix/zabbix.agent.conf.d/minio.conf
 sudo service zabbix-agent restart
 
